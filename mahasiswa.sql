@@ -1,3 +1,7 @@
+--berikut screenshoot latihan basis data menggunakan mysql ada di link gdrive dibawah ini :--
+-- https://drive.google.com/drive/folders/1hyipAqPsCXqE1WEPfawolora_x2dYKBX?usp=sharing --
+
+
 create database fakultas;
 
   --not null untuk perintah mengisikan data--
@@ -17,3 +21,4 @@ create table mahasiswa (
     tempat_lahir varchar(50),
     foreign key (id_jurusan) references jurusan (ID) 
 );
+
